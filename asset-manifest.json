@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-car-selection/static/css/main.62a786e3.css",
+    "main.js": "/react-car-selection/static/js/main.29ac1526.js",
+    "static/media/notfound.png": "/react-car-selection/static/media/notfound.2df40033941f3534f2eb.png",
+    "static/media/exeedlx.png": "/react-car-selection/static/media/exeedlx.70c94dec258ff6601075.png",
+    "static/media/toyotaprado.jpg": "/react-car-selection/static/media/toyotaprado.6b97fe360aefb2f5ff61.jpg",
+    "static/media/renaultsandero.png": "/react-car-selection/static/media/renaultsandero.6db64a056996883a5080.png",
+    "static/media/renaultarkana.jpg": "/react-car-selection/static/media/renaultarkana.2301862d0079b960baed.jpg",
+    "static/media/hyundaicreta.jpg": "/react-car-selection/static/media/hyundaicreta.224da7c886532505ee07.jpg",
+    "static/media/toyotacamry.jpg": "/react-car-selection/static/media/toyotacamry.84cd749816c976b01ec8.jpg",
+    "static/media/hyundaitucson.png": "/react-car-selection/static/media/hyundaitucson.6d28367083c31e4c4553.png",
+    "static/media/volkswagen6.png": "/react-car-selection/static/media/volkswagen6.6740d7c5512accb1a409.png",
+    "static/media/exeedtxl.jpg": "/react-car-selection/static/media/exeedtxl.89014582cd6d52aa9ec3.jpg",
+    "static/media/exeedvx.jpg": "/react-car-selection/static/media/exeedvx.3180823ad4e3bbc56286.jpg",
+    "static/media/renaultkaptur.jpg": "/react-car-selection/static/media/renaultkaptur.ad5c9b7a8c43886efaf8.jpg",
+    "static/media/renaultduster.jpg": "/react-car-selection/static/media/renaultduster.6f3563f8413310782434.jpg",
+    "static/media/audia5.jpg": "/react-car-selection/static/media/audia5.8ed5eec9c0fe630717fe.jpg",
+    "static/media/audia3.jpg": "/react-car-selection/static/media/audia3.405e1a0d75e3225be91a.jpg",
+    "static/media/audia4.jpg": "/react-car-selection/static/media/audia4.2b0ff48fd5436856114f.jpg",
+    "static/media/ico_time_grey.svg": "/react-car-selection/static/media/ico_time_grey.e4341479010135b68a7a.svg",
+    "index.html": "/react-car-selection/index.html",
+    "main.62a786e3.css.map": "/react-car-selection/static/css/main.62a786e3.css.map",
+    "main.29ac1526.js.map": "/react-car-selection/static/js/main.29ac1526.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62a786e3.css",
+    "static/js/main.29ac1526.js"
+  ]
+}
