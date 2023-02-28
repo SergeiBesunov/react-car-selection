@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-car-selection/static/css/main.62a786e3.css",
-    "main.js": "/react-car-selection/static/js/main.29ac1526.js",
+    "main.js": "/react-car-selection/static/js/main.347ca950.js",
     "static/media/notfound.png": "/react-car-selection/static/media/notfound.2df40033941f3534f2eb.png",
     "static/media/exeedlx.png": "/react-car-selection/static/media/exeedlx.70c94dec258ff6601075.png",
     "static/media/toyotaprado.jpg": "/react-car-selection/static/media/toyotaprado.6b97fe360aefb2f5ff61.jpg",
@@ -21,10 +21,10 @@
     "static/media/ico_time_grey.svg": "/react-car-selection/static/media/ico_time_grey.e4341479010135b68a7a.svg",
     "index.html": "/react-car-selection/index.html",
     "main.62a786e3.css.map": "/react-car-selection/static/css/main.62a786e3.css.map",
-    "main.29ac1526.js.map": "/react-car-selection/static/js/main.29ac1526.js.map"
+    "main.347ca950.js.map": "/react-car-selection/static/js/main.347ca950.js.map"
   },
   "entrypoints": [
     "static/css/main.62a786e3.css",
-    "static/js/main.29ac1526.js"
+    "static/js/main.347ca950.js"
   ]
 }
