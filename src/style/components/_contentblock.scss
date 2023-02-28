@@ -1,0 +1,66 @@
+.modellist {
+   margin-top: 30px;
+
+   &__title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-right: 15px;
+      text-align: center;
+      line-height: 26px;
+   }
+
+   &__img {
+      width: 50%;
+
+      img {
+         width: 100%;
+         object-fit: cover;
+      }
+   }
+
+   &__description {
+      width: 50%;
+      padding-left: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+
+   &__text {
+      margin: 15px 0;
+      text-align: center;
+   }
+
+   .modellist__title-wrapper {
+      display: flex;
+   }
+}
+
+.modellist__cards {
+   padding-top: 30px;
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 -10px;
+}
+
+// Media ------------------------------------
+
+@media (max-width: 750px) {
+   .modellist {
+      &__img {
+         width: 80%;
+      }
+      &__description {
+         display: none;
+      }
+   }
+}
+
+@media (max-width: 600px) {
+   .modellist {
+      &__img {
+         width: 92%;
+      }
+   }
+}

@@ -1,0 +1,76 @@
+.slider-pr{
+    &__values{
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__value{
+        display: inline-block;
+        font-weight: 600;
+
+        span{
+            color: #7E809A;
+        }
+    }
+
+    &__range{
+        height: 5px;
+        background-color: #ddd;
+        position: relative;
+    }
+
+    &__progress{
+        position: absolute;
+        right: 25%;
+        left: 25%;
+        height: 5px;
+        background-color: #2A7D9E;
+    }
+
+    &__inputs{
+        position: relative;
+    }
+
+    &__input{
+        position: absolute;
+        top: -4px;
+        height: 4px;
+        width: 100%;
+        background:none;
+        appearance: none; 
+        -webkit-appearance: none;
+        pointer-events: none;
+    }
+
+    &__default-values{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+
+        p{
+            color: #7E809A;
+        }
+    }
+}
+
+/* Стилизация бегунков у input range */
+input[type="range"]::-webkit-slider-thumb{
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    pointer-events: auto;
+    -webkit-appearance: none;
+    background-color: #fff;
+    border: 9px solid #2A7D9E;
+}
+
+input[type="range"]:hover{
+    cursor:pointer
+}
+
+/* Убрали дефолтные стрелки у input number */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	display: none;
+}

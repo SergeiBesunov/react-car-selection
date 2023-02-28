@@ -1,0 +1,121 @@
+.card-wrapper {
+   padding: 0px 10px 0px 10px;
+   width: 25%;
+   margin-bottom: 20px;
+}
+
+.card {
+   padding: 20px;
+   box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+   background-color: #fff;
+   border-radius: 15px;
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+
+   &__img {
+      width: 100%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border-radius: 15px;
+   }
+
+   &__title {
+      display: block;
+      font-size: 26px;
+      font-weight: 600;
+      line-height: 35px;
+   }
+
+   &__info {
+      flex: 1 0 auto;
+   }
+
+   &__date {
+      margin: 12px 0px;
+      background-image: url(../../assets/ico_time_grey.svg);
+      background-repeat: no-repeat;
+      background-position: left;
+      padding: 5px 0px 5px 20px;
+
+      color: #9b9b9b;
+      font-size: 12px;
+   }
+
+   &__description {
+      margin: 12px 0px;
+      font-size: 14px;
+      line-height: 18px;
+   }
+
+   &__availabil {
+      margin: 12px 0px;
+
+      &-text {
+         color: #9b9b9b;
+         font-size: 12px;
+      }
+
+      &-total {
+         font-size: 14px;
+      }
+   }
+
+   &__price {
+      margin: 12px 0px 20px;
+
+      &-text {
+         color: #9b9b9b;
+         font-size: 14px;
+      }
+
+      &-num {
+         font-size: 26px;
+         font-weight: 600;
+         margin: 0 7px;
+      }
+   }
+
+   &__but {
+      padding: 12px 15px;
+      border: 1px solid #2a7d9e;
+      font-weight: 500;
+      border-radius: 16px;
+      width: 100%;
+      display: block;
+      background-color: #fff;
+      text-align: center;
+      transition: all 0.2s ease 0s;
+
+      &:hover {
+         background-color: #2a7d9e;
+         color: #fff;
+      }
+   }
+}
+
+// Media ------------------------------------
+
+@media (max-width: 850px) {
+   .card-wrapper {
+      padding: 0px 10px 0px 10px;
+      width: 33%;
+      margin-bottom: 20px;
+   }
+}
+
+@media (max-width: 670px) {
+   .card-wrapper {
+      padding: 0px 10px 0px 10px;
+      width: 50%;
+      margin-bottom: 20px;
+   }
+}
+
+@media (max-width: 450px) {
+   .card-wrapper {
+      padding: 0px 10px 0px 10px;
+      width: 100%;
+      margin-bottom: 20px;
+   }
+}
