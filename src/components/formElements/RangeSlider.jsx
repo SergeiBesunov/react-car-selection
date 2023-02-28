@@ -57,7 +57,7 @@ function RangeSlider({initialMin, initialMax, min, max, step, priceGap, onChange
          <div className="slider-pr__range">
             <div className="slider-pr__progress" ref={progressLine}></div>
          </div>
-         <div className="slider-pr__inputs" onMouseUp={onChange}>
+         <div className="slider-pr__inputs" onPointerUp={onChange}>
             <input
                type="range"
                name="minPrice"
